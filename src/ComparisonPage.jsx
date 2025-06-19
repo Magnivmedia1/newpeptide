@@ -166,36 +166,95 @@ export default function ComparisonPage() {
       <section style={styles.section}>
         <h2 style={styles.h2}>What It Is:</h2>
         <p style={styles.p}>
-          SLU-PP-332 is a groundbreaking compound designed to activate exercise
-          pathways and enhance endurance without traditional stimulants.
+          <strong>SLU‑PP‑332</strong> is a pioneering exercise-mimetic—a
+          synthetic molecule that mimics the internal metabolic effects of
+          exercise. It works by activating estrogen-related orphan receptors
+          (ERRs), revving up energy expenditure, fat oxidation, and
+          mitochondrial function—especially in muscle tissue jrenendo.com+9.{" "}
+        </p>
+        <p>
+          Typical thermogenic fat burners usually rely on stimulants or herbal
+          extracts to rev metabolism and curb appetite. They may boost calorie
+          burn, but often bring jitteriness, crashes, or reliance on caffeine.
         </p>
 
         <h2 style={styles.h2}>How It Works</h2>
         <p style={styles.p}>
-          SLU-PP-332 activates ERRγ to mimic exercise by boosting mitochondria
-          and muscle efficiency.
+          <strong>SLU‑PP‑332 activates ERRα/β/γ </strong>triggering
+          mitochondrial biogenesis and metabolic pathways normally turned on by
+          endurance exercise en.wikipedia.org+4.
         </p>
-        <a href="#" style={styles.button}>
+        <p>
+          {" "}
+          This leads to higher basal energy expenditure and faster fat
+          metabolism—without changing diet or exercise routines news.ufl.edu+8.{" "}
+        </p>
+        <p>
+          In contrast, fat burners often boost metabolism or suppress appetite,
+          but lack deep cellular impact. They're not designed to enhance
+          mitochondrial function or mimic exercise’s comprehensive metabolic
+          effects.
+        </p>
+        <a
+          href="https://peptidelabsx.com/products/slu-pp-332-1mg-x-60-tablets"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.button}
+        >
           Try SLU-PP-332 Now
         </a>
 
         <h2 style={styles.h2}>Proven Results (in Mice)</h2>
         <p style={styles.p}>
-          SLU-PP-332 showed dramatic fat loss in mice without exercise.
+          <strong>SLU‑PP‑332:</strong> In obese mice, twice-daily dosing for 28
+          days led to <strong>12% body weight loss, 10× less fat gain,</strong>{" "}
+          and no change in food intake or activity—mimicking endurance training
+          on a cellular level news.ufl.edu+9.
+        </p>
+        <p>
+          It also increased oxidative skeletal muscle fibers and exercise
+          endurance by up to 70%, even without increased activity
+          jrenendo.com+3.
+        </p>
+        <p>
+          Typical fat burners may show modest weight loss (~5 ~10%) but often
+          rely on calorie restriction or appetite suppression—with little focus
+          on muscle/mitochondria adaptations.
         </p>
 
-        <a href="#" style={styles.button}>
+        <a
+          href="https://peptidelabsx.com/products/slu-pp-332-1mg-x-60-tablets"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.button}
+        >
           Try SLU-PP-332 Now
         </a>
 
         <h2 style={styles.h2}>Safety & Side Effects</h2>
         <p style={styles.p}>
-          SLU-PP-332 is non-stimulant, with minimal side effects.
+          <strong>SLU‑PP‑332</strong> caused{" "}
+          <strong>
+            no appetite, activity changes, or obvious side effects{" "}
+          </strong>{" "}
+          in preclinical trials. Still, long-term effects in humans are unknown,
+          and human trials haven’t begun news.ufl.edu+9.
+        </p>
+        <p>
+          <strong>Fat burners,</strong> especially stimulant-based ones, can
+          cause jitteriness, sleep issues, increased heart rate, and tolerance
+          buildup.
         </p>
 
         <h2 style={styles.h2}>Beyond Fat Loss</h2>
         <p style={styles.p}>
-          SLU-PP-332 supports endurance, recovery, and metabolism.
+          <strong>SLU‑PP‑332</strong> shows broad metabolic potential: improved
+          insulin sensitivity, possible benefits for heart/kidney health,
+          enhanced muscle endurance, and mitochondrial health .{" "}
+        </p>
+        <p>
+          Most fat burners focus narrowly on fat loss—often requiring caloric
+          deficits or additional exercise for broader health impact
         </p>
 
         <h2 style={styles.h2}>Side-by-Side Comparison</h2>
@@ -243,17 +302,36 @@ export default function ComparisonPage() {
 
         <h2 style={styles.h2}>Final Take</h2>
         <p style={styles.p}>
-          SLU-PP-332 leads with science and endurance benefits beyond basic fat
-          burning.
+          SLU‑PP‑332 offers a revolutionary leap forward compared to
+          conventional fat burners—by activating actual exercise pathways at the
+          cellular level. In mice, it delivered impressive results: serious fat
+          reduction, improved endurance, no appetite suppression, and no evident
+          side effects. Fat burners, by contrast, are often limited in scope and
+          burdened by side effects.
+        </p>
+        <p>
+          {" "}
+          <strong>However,</strong> SLU‑PP‑332 remains in preclinical
+          <strong>stages</strong> — meaning all claims are based on animal
+          studies. Human trials are still needed to confirm its safety and
+          real-world efficacy.
         </p>
 
         <h2 style={styles.h2}>Conclusion:</h2>
         <p style={styles.p}>
-          If you're tired of the same old stimulant-heavy burners, SLU-PP-332
-          offers a safer, research-backed, performance-forward solution.
+          If you’re after an option that actually mimics exercise metabolism
+          (based on lab results), SLU‑PP‑332 is a game-changer—if it proves safe
+          and effective in humans. Traditional fat burners might offer modest
+          results faster, but with trade-offs: stimulants, side effects, and
+          limited metabolic depth
         </p>
 
-        <a href="#" style={styles.button}>
+        <a
+          href="https://peptidelabsx.com/products/slu-pp-332-1mg-x-60-tablets"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.button}
+        >
           Try SLU-PP-332 Now
         </a>
       </section>
