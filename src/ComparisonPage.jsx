@@ -23,15 +23,14 @@ const styles = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    margin: "2rem 15rem",
-    flexWrap: "wrap",
+    margin: "2rem 0rem",
   },
   comparisonItem: {
     flex: 1,
     display: "flex",
     flexDirection: "column",
+    justifyContent: "center",
     alignItems: "center",
-    margin: "1rem",
   },
   image: {
     width: "100%",
@@ -41,7 +40,7 @@ const styles = {
   tabs: {
     display: "flex",
     justifyContent: "center",
-    marginTop: "1rem",
+    marginTop: "1rem 0",
   },
   tab: {
     padding: "0.75rem 1.5rem",
@@ -125,7 +124,8 @@ const styles = {
     margin: "2rem auto 0 auto",
   },
   "@media(maxWidth: 600px)": {
-    comparisonBanner: { flexDirection: "column", margin: "1rem" },
+    comparisonBanner: { flexDirection: "row", margin: "1rem 0rem" },
+    comparisonItem: { width: "80%" },
     input: { width: "100%", margin: "0.5rem 0" },
   },
 };
