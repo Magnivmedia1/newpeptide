@@ -205,62 +205,121 @@ export default function HairGrowthPage() {
             </div>
           </section>
 
-          {/* Comparison Section */}
-          <section className="bg-gray-100 px-4 py-10 rounded-lg mb-12">
-            <h3 className="text-xl font-bold mb-4">
-              Side-by-Side Comparison: illumiflow vs. Minoxidil
+
+          {/*Beyond Fat Loss*/}
+          <section className="text-center mb-12 ">
+            <h3 className="text-4xl font-bold mb-6 md:text-left">
+              Beyond Fat Loss{" "}
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white rounded shadow p-6">
+            
+            <p className="mb-4 text-gray-700 text-left">
+              <strong>SLU‑PP‑332</strong> shows broad metabolic potential: improved
+          insulin sensitivity, possible benefits for heart/kidney health,
+          enhanced muscle endurance, and mitochondrial health .{" "}
+            </p>
+            <p className="mb-4 text-gray-700 text-left">
+              Most fat burners focus narrowly on fat loss—often requiring caloric
+          deficits or additional exercise for broader health impact
+            </p>
+           
+          </section>
+
+          {/* Comparison Section */}
+          <section className="bg-gray-100 px-4 py-6 rounded-lg mb-12">
+            <h3 className="text-4xl font-bold mb-2">
+              Side-by-Side Comparison: <br/> <span className="text-2xl">SLU-PP-332 vs. Typical Fat Burner</span>
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-1 ">
               <div>
-                <h4 className="font-semibold">illumiflow</h4>
-                <ul className="list-disc list-inside text-green-700">
-                  <li>Clinically validated regrowth and thickening</li>
-                  <li>3x weekly, hands-free, 30 min</li>
-                  <li>FDA-cleared, non-invasive</li>
-                  <li>Sustainable, stable improvements</li>
-                  <li>Comfortable, easy use</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-semibold">Minoxidil</h4>
-                <ul className="list-disc list-inside text-red-700">
-                  <li>Moderate regrowth</li>
-                  <li>Daily use required</li>
-                  <li>Skin irritation, dryness possible</li>
-                  <li>Temporary coverage</li>
-                  <li>Ongoing hassle</li>
-                </ul>
-              </div>
+                <table className="w-full border-separate border-spacing-0 rounded-xl overflow-hidden my-8">
+  <thead>
+    <tr>
+      <th className="bg-[#5e2c83] text-white text-center text-base p-4">Feature</th>
+      <th className="bg-[#5e2c83] text-white text-center text-base p-4">SLU-PP-332</th>
+      <th className="bg-[#5e2c83] text-white text-center text-base p-4">Typical Fat Burner</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      ["Activates Exercise Pathways", true, false],
+      ["Increases Endurance + Muscle Fiber", true, false],
+      ["No Stimulants / Jitters", true, false],
+      ["Fat Loss Without Diet Change", true, false],
+      ["Mitochondrial Boosting", true, false],
+      ["Appetite Suppression", false, true],
+      ["Caffeine or Thermogenics", false, true],
+    ].map(([feature, slu, fat], idx) => (
+      <tr key={feature} className={idx % 2 === 0 ? "bg-[#f3f0f8]" : "bg-white"}>
+        <td className="text-left pl-6 p-4 text-sm">{feature}</td>
+        <td className="text-center p-4 text-sm">
+          {slu ? (
+            <span className="text-green-600 text-xl">✔️</span>
+          ) : (
+            <span className="text-red-500 text-xl">✖️</span>
+          )}
+        </td>
+        <td className="text-center p-4 text-sm">
+          {fat ? (
+            <span className="text-green-600 text-xl">✔️</span>
+          ) : (
+            <span className="text-red-500 text-xl">✖️</span>
+          )}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+                </div>
             </div>
           </section>
 
           {/* Final Verdict Section */}
           <section className="text-center mb-12">
-            <h3 className="text-2xl font-bold mb-6">
-              Final Verdict: illumiflow Is the Smarter Choice
+            <h3 className="text-4xl font-bold mb-6 md:text-left ">
+              Final Take: SLU‑PP‑332 Is the Smarter Choice
             </h3>
-            <p className="mb-4 text-gray-700">
-              If you're struggling with thinning hair, patchy regrowth, or hair
-              loss concerns, choosing the right solution is essential. Minoxidil
-              may help some men, but its one-dimensional approach doesn’t
-              deliver the full results you want.
+            <p className="mb-4 text-gray-700 md:text-left">
+              SLU‑PP‑332 offers a revolutionary leap forward compared to
+          conventional fat burners—by activating actual exercise pathways at the
+          cellular level. In mice, it delivered impressive results: serious fat
+          reduction, improved endurance, no appetite suppression, and no evident
+          side effects. Fat burners, by contrast, are often limited in scope and
+          burdened by side effects.
             </p>
-            <ul className="list-disc list-inside text-left inline-block text-green-700">
-              <li>
-                Advanced laser technology for total scalp coverage and hair
-                regrowth
-              </li>
-              <li>
-                Clinically backed, drug-free solution for real, lasting regrowth
-              </li>
-              <li>
-                Tackles the root causes of hair loss, not just the symptoms
-              </li>
-              <li>Risk-free 12-month growth guarantee</li>
-            </ul>
+             <p className="mb-4 text-gray-700 md:text-left">
+             <strong>However,</strong> SLU‑PP‑332 remains in preclinical
+          <strong>stages</strong> — meaning all claims are based on animal
+          studies. Human trials are still needed to confirm its safety and
+          real-world efficacy.
+            </p>           
+            
+          </section>
+
+           {/*Conclusion */}
+          <section className="text-center mb-12">
+            <h3 className="text-4xl font-bold mb-6 md:text-left ">
+              Conclusion:
+            </h3>
+            <p className="mb-4 text-gray-700 md:text-left">
+              If you’re after an option that actually mimics exercise metabolism
+          (based on lab results), SLU‑PP‑332 is a game-changer—if it proves safe
+          and effective in humans. Traditional fat burners might offer modest
+          results faster, but with trade-offs: stimulants, side effects, and
+          limited metabolic depth
+            </p>
+             
             <div className="mt-6">
-              <button className="bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded">
-                Try illumiflow Now
+              <button
+                onClick={handleClick}
+                className="relative inline-block text-lg group focus:outline-none"
+              >
+                <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                  <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+                  <span className="absolute left-0 w-58 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+                  <span className="relative font-bold">Try SLU-PP-332 Now</span>
+                </span>
+                <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
               </button>
             </div>
           </section>
@@ -274,15 +333,17 @@ export default function HairGrowthPage() {
             </h4>
             <div className="flex justify-center mb-3">
               <img
-                src="/illumiflow-widget.png"
+                src="/images/slu-pp-332.png"
                 alt="illumiflow helmet"
                 className="w-3/4"
               />
             </div>
-            <p className="text-sm text-center mb-2">
-              Try illumiflow 12 months risk free!
+            <p className="text-md text-center mb-2">
+              Try SLU-PP-332 12 months risk free!
             </p>
-            <button className="bg-red-600 hover:bg-red-700 text-white font-bold w-full py-2 rounded">
+            <button 
+            onClick={handleClick}
+            className="bg-red-600 hover:bg-red-700 text-white font-bold w-full py-2 rounded">
               Claim Offer Now
             </button>
           </div>
@@ -290,7 +351,7 @@ export default function HairGrowthPage() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-blue-900 text-white px-4 py-6 text-center text-sm">
+      <footer className="bg-blue-900 text-white px-4 py-6 text-center text-md">
         <p>&copy; 2025 HAIR HEALTH REPORT. All rights reserved.</p>
         <p className="mt-2">
           Disclaimer: This is not medical advice. Speak with a physician before
