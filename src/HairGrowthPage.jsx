@@ -10,8 +10,10 @@ export default function HairGrowthPage() {
     <div className="bg-white text-gray-900 font-sans">
       {/* Header */}
       <header className="bg-blue-900 text-white px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">HAIR HEALTH REPORT</h1>
-        <button className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded">
+        <h1 className="text-xl font-bold">MODERN HEALTH REPORTING</h1>
+        <button
+        onClick={handleClick}
+         className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded">
           Learn More
         </button>
       </header>
@@ -231,11 +233,11 @@ export default function HairGrowthPage() {
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-1 ">
               <div>
-                <table className="w-full border-separate border-spacing-0 rounded-xl overflow-hidden my-8">
+             <table className="w-full border-separate border-spacing-0 rounded-xl overflow-hidden my-8">
   <thead>
     <tr>
       <th className="bg-[#5e2c83] text-white text-center text-base p-4">Feature</th>
-      <th className="bg-[#5e2c83] text-white text-center text-base p-4">SLU-PP-332</th>
+      <th className="bg-red-600 text-white text-center font-black text-base p-5">SLU-PP-332</th>
       <th className="bg-[#5e2c83] text-white text-center text-base p-4">Typical Fat Burner</th>
     </tr>
   </thead>
@@ -251,24 +253,17 @@ export default function HairGrowthPage() {
     ].map(([feature, slu, fat], idx) => (
       <tr key={feature} className={idx % 2 === 0 ? "bg-[#f3f0f8]" : "bg-white"}>
         <td className="text-left pl-6 p-4 text-sm">{feature}</td>
-        <td className="text-center p-4 text-sm">
-          {slu ? (
-            <span className="text-green-600 text-xl">✔️</span>
-          ) : (
-            <span className="text-red-500 text-xl">✖️</span>
-          )}
+        <td className="text-center p-4 text-sm bg-red-700 font-semibold">
+          <span className={slu ? "text-green-600  font-extrabold text-lg" : "text-white font-extrabold  text-lg"}>{slu ? "✓" : "✗"}</span>
         </td>
         <td className="text-center p-4 text-sm">
-          {fat ? (
-            <span className="text-green-600 text-xl">✔️</span>
-          ) : (
-            <span className="text-red-500 text-xl">✖️</span>
-          )}
+          <span className={fat ? "text-green-600 font-extrabold text-lg" : "text-red-500 font-extrabold  text-lg"}>{fat ? "✓" : "✗"}</span>
         </td>
       </tr>
     ))}
   </tbody>
 </table>
+
 
                 </div>
             </div>
@@ -338,8 +333,8 @@ export default function HairGrowthPage() {
                 className="w-3/4"
               />
             </div>
-            <p className="text-md text-center mb-2">
-              Try SLU-PP-332 12 months risk free!
+            <p className="text-md text-center font-bold mb-2">
+              Try SLU-PP-332 25% off!
             </p>
             <button 
             onClick={handleClick}
@@ -352,7 +347,7 @@ export default function HairGrowthPage() {
 
       {/* Footer */}
       <footer className="bg-blue-900 text-white px-4 py-6 text-center text-md">
-        <p>&copy; 2025 HAIR HEALTH REPORT. All rights reserved.</p>
+        <p>&copy; 2025 MODERN HEALTH REPORTING. All rights reserved.</p>
         <p className="mt-2">
           Disclaimer: This is not medical advice. Speak with a physician before
           beginning any treatment.
