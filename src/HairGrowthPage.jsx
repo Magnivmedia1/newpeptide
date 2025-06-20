@@ -254,7 +254,7 @@ export default function HairGrowthPage() {
       <tr key={feature} className={idx % 2 === 0 ? "bg-[#f3f0f8]" : "bg-white"}>
         <td className="text-left pl-6 p-4 text-sm">{feature}</td>
         <td className="text-center p-4 text-sm bg-red-700 font-semibold">
-          <span className={slu ? "text-green-600  font-extrabold text-lg" : "text-white font-extrabold  text-lg"}>{slu ? "✓" : "✗"}</span>
+          <span className={slu ? "text-white  font-extrabold text-lg" : "text-white font-extrabold  text-lg"}>{slu ? "✓" : "✗"}</span>
         </td>
         <td className="text-center p-4 text-sm">
           <span className={fat ? "text-green-600 font-extrabold text-lg" : "text-red-500 font-extrabold  text-lg"}>{fat ? "✓" : "✗"}</span>
