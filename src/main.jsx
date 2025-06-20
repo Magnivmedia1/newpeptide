@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ComparisonPage from "./ComparisonPage"; // import your component
+import HairGrowthPage from "./HairGrowthPage"; // import your component
+import './index.css'; // Global styles
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ComparisonPage />
+    <HairGrowthPage />
   </React.StrictMode>
 );
