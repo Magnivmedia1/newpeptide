@@ -279,7 +279,7 @@ export default function HairGrowthPage() {
             <h3 className="text-4xl font-bold mb-6 md:text-left ">
               Final Take: SLU‑PP‑332 Is the Smarter Choice
             </h3>
-            <p className="mb-4 text-gray-700 md:text-left">
+            <p className="mb-4 text-gray-700 text-left">
               SLU‑PP‑332 offers a revolutionary leap forward compared to
           conventional fat burners—by activating actual exercise pathways at the
           cellular level. In mice, it delivered impressive results: serious fat
@@ -287,7 +287,7 @@ export default function HairGrowthPage() {
           side effects. Fat burners, by contrast, are often limited in scope and
           burdened by side effects.
             </p>
-             <p className="mb-4 text-gray-700 md:text-left">
+             <p className="mb-4 text-gray-700 text-left">
              <strong>However,</strong> SLU‑PP‑332 remains in preclinical
           <strong>stages</strong> — meaning all claims are based on animal
           studies. Human trials are still needed to confirm its safety and
@@ -301,7 +301,7 @@ export default function HairGrowthPage() {
             <h3 className="text-4xl font-bold mb-6 md:text-left ">
               Conclusion:
             </h3>
-            <p className="mb-4 text-gray-700 md:text-left">
+            <p className="mb-4 text-gray-700 text-left">
               If you’re after an option that actually mimics exercise metabolism
           (based on lab results), SLU‑PP‑332 is a game-changer—if it proves safe
           and effective in humans. Traditional fat burners might offer modest
