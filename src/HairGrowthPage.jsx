@@ -9,7 +9,7 @@ export default function HairGrowthPage() {
   return (
     <div className="bg-white text-gray-900 font-sans">
       {/* Header */}
-      <header className="bg-blue-900 text-white px-6 py-4 flex flex-column md:flex-row justify-between items-center">
+      <header className="bg-blue-900 text-white px-6 py-4 flex flex-col md:flex-row justify-between items-center">
         <h1 className="text-4xl font-bold text-center">MODERN HEALTH REPORTING</h1>
         <button
         onClick={handleClick}
