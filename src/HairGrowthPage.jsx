@@ -7,7 +7,7 @@ export default function HairGrowthPage() {
   };
 
   return (
-    <div className="bg-white text-gray-900 font-sans">
+    <div className="con bg-white text-gray-900 font-sans">
       {/* Header */}
       <header className="bg-blue-900 text-white px-6 py-4 flex flex-col md:flex-row gap-2 justify-between items-center">
         <h1 className="text-4xl font-bold text-center">MODERN HEALTH REPORTING</h1>
@@ -24,7 +24,7 @@ export default function HairGrowthPage() {
         <main className="w-full lg:w-3/4 lg:pr-8">
           {/* Hero Section */}
           <section className="text-center mb-12">
-            <h2 className="text-6xl font-bold mb-2">
+            <h2 className="text-4xl font-bold mb-2">
               SLU-PP-332 vs. Your Average Fat Burner: A Clear Winner?
             </h2>
             <p className="text-sm text-white font-bold mb-4 text-left bg-gray-400 p-2 w-50 mt-4">
@@ -52,7 +52,7 @@ export default function HairGrowthPage() {
             <h3 className="text-4xl font-bold mb-6 md:text-left">
               What It Is:{" "}
             </h3>
-            <p className="mb-4 text-gray-500 text-left text-lg/9">
+            <p className="mb-4 text-gray-500 text-left ">
               <strong>SLU‑PP‑332</strong> is a pioneering exercise-mimetic—a
               synthetic molecule that mimics the internal metabolic effects of
               exercise. It works by activating estrogen-related orphan receptors
