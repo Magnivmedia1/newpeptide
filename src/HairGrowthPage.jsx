@@ -344,7 +344,7 @@ export default function HairGrowthPage() {
           </div> */}
 
            <div className="sticky top-6 max-w-sm mx-auto rounded-xl border border-gray-300 shadow-md p-6 bg-white text-center font-sans">
-      <h2 className="text-xl font-bold text-gray-800 mb-2">Recommended</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-2">Recommended</h2>
 
       <div className="flex items-center justify-center text-sm text-yellow-500 font-semibold mb-4">
         <span className="text-sm">⭐⭐⭐⭐⭐</span>
@@ -353,7 +353,7 @@ export default function HairGrowthPage() {
 
       <hr className="border-gray-300 mb-4" />
 
-      <h3 className="text-lg font-bold text-gray-900 leading-snug mb-4">
+      <h3 className="text-3xl font-bold text-gray-900 leading-snug mb-4">
         Try SLU-PP-332<br /> and get 25% off!
       </h3>
 
@@ -361,7 +361,7 @@ export default function HairGrowthPage() {
         <img 
           src="/images/slu-pp-332.png" 
           alt="illumiflow cap"
-          className="w-48 h-auto"
+          className="w-70 h-auto"
         />
         <div className="absolute bottom-0 right-0 p-1 rounded-full bg-white shadow">
           <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -370,7 +370,7 @@ export default function HairGrowthPage() {
         </div>
       </div>
 
-      <p className="text-sm text-gray-700 mb-4">
+      <p className="text-[17px] text-gray-700 mb-4">
         SLU-PP-332 was created to change the game in hair loss treatment.{' '}
         <button onClick={handleClick} className="text-red-600 font-semibold underline">
           Claim this special offer today!
