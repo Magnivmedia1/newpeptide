@@ -348,6 +348,7 @@ export default function HairGrowthPage() {
       {/* Footer */}
       <footer className="bg-blue-900 text-white px-4 py-6 text-center text-md">
         <h1 className="text-center text-4xl font-bold mb-4">MODERN HEALTH REPORTING</h1>
+        <p>This is an advertisement, not an actual news article, blog, or consumer protection update. The owner of this site may receive compensation for purchases made through links on this site. Models are used for illustrative purposes only. This site is for informational and advertising purposes only and does not offer medical advice.</p>
         <p>&copy; 2025 MODERN HEALTH REPORTING. All rights reserved.</p>
         <p className="mt-2">
           Disclaimer: This is not medical advice. Speak with a physician before
