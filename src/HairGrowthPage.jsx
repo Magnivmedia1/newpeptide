@@ -241,7 +241,7 @@ export default function HairGrowthPage() {
   <thead>
     <tr>
       <th className=" text-center text-md p-4">Feature</th>
-      <th className="bg-[#5e2c83] text-white text-center font-black text-md p-5">SLU-PP-332</th>
+      <th className="bg-black text-white text-center font-black text-md p-5">SLU-PP-332</th>
       <th className="text-center text-md p-4">Typical Fat Burner</th>
     </tr>
   </thead>
@@ -252,12 +252,12 @@ export default function HairGrowthPage() {
       ["No Stimulants / Jitters", true, false],
       ["Fat Loss Without Diet Change", true, false],
       ["Mitochondrial Boosting", true, false],
-      ["Appetite Suppression", false, true],
-      ["Caffeine or Thermogenics", false, true],
+      ["No Appetite Suppression", true, false],
+      ["No Caffeine or Thermogenics", true, false],
     ].map(([feature, slu, fat], idx) => (
       <tr key={feature} className={idx % 2 === 0 ? "bg-[#f3f0f8]" : "bg-white"}>
         <td className="text-left  pl-6 p-4 text-md">{feature}</td>
-        <td className="text-center  p-4 text-[8px] bg-[#5e2c83] font-semibold">
+        <td className="text-center  p-4 text-[8px] bg-black font-semibold">
           <span className={slu ? "text-white  font-extrabold p-2 rounded-full bg-green-600" : "text-red-500 font-extrabold text-lg"}>{slu ? "✓" : "X"}</span>
         </td>
         <td className="text-center p-4 text-sm">
