@@ -10,7 +10,7 @@ export default function HairGrowthPage() {
     <div className="bg-white text-gray-900 font-sans">
       {/* Header */}
       <header className="bg-blue-900 text-white px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">MODERN HEALTH REPORTING</h1>
+        <h1 className="text-4xl font-bold text-center">MODERN HEALTH REPORTING</h1>
         <button
         onClick={handleClick}
          className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded">
@@ -19,7 +19,7 @@ export default function HairGrowthPage() {
       </header>
 
       {/* Main Content with Sidebar */}
-      <div className="flex flex-col lg:flex-row max-w-7xl mx-auto px-4 py-8 text-2xl text-sm/9">
+      <div className="flex flex-col lg:flex-row max-w-7xl mx-auto px-4 py-8 text-2xl text-lg/9">
         {/* Main Article */}
         <main className="w-full lg:w-3/4 lg:pr-8">
           {/* Hero Section */}
@@ -52,7 +52,7 @@ export default function HairGrowthPage() {
             <h3 className="text-4xl font-bold mb-6 md:text-left">
               What It Is:{" "}
             </h3>
-            <p className="mb-4 text-gray-500 text-left">
+            <p className="mb-4 text-gray-500 text-left text-lg/9">
               <strong>SLU‑PP‑332</strong> is a pioneering exercise-mimetic—a
               synthetic molecule that mimics the internal metabolic effects of
               exercise. It works by activating estrogen-related orphan receptors
@@ -236,9 +236,9 @@ export default function HairGrowthPage() {
              <table className="w-full border-separate border-spacing-0 rounded-xl overflow-hidden my-8">
   <thead>
     <tr>
-      <th className="bg-[#5e2c83] text-white text-center text-base p-4">Feature</th>
-      <th className="bg-red-600 text-white text-center font-black text-base p-5">SLU-PP-332</th>
-      <th className="bg-[#5e2c83] text-white text-center text-base p-4">Typical Fat Burner</th>
+      <th className=" text-center text-md p-4">Feature</th>
+      <th className="bg-[#5e2c83] text-white text-center font-black text-md p-5">SLU-PP-332</th>
+      <th className="text-center text-md p-4">Typical Fat Burner</th>
     </tr>
   </thead>
   <tbody>
@@ -252,12 +252,12 @@ export default function HairGrowthPage() {
       ["Caffeine or Thermogenics", false, true],
     ].map(([feature, slu, fat], idx) => (
       <tr key={feature} className={idx % 2 === 0 ? "bg-[#f3f0f8]" : "bg-white"}>
-        <td className="text-left pl-6 p-4 text-sm">{feature}</td>
-        <td className="text-center p-4 text-sm bg-red-700 font-semibold">
-          <span className={slu ? "text-white  font-extrabold text-lg" : "text-white font-extrabold  text-lg"}>{slu ? "✓" : "✗"}</span>
+        <td className="text-left  pl-6 p-4 text-md">{feature}</td>
+        <td className="text-center  p-4 text-[8px] bg-[#5e2c83] font-semibold">
+          <span className={slu ? "text-white  font-extrabold p-2 rounded-full bg-green-600" : "text-red-500 font-extrabold text-lg"}>{slu ? "✓" : "X"}</span>
         </td>
         <td className="text-center p-4 text-sm">
-          <span className={fat ? "text-green-600 font-extrabold text-lg" : "text-red-500 font-extrabold  text-lg"}>{fat ? "✓" : "✗"}</span>
+          <span className={fat ? "text-white text-[8px] font-extrabold p-2 rounded-full bg-green-600" : "text-red-500 font-extrabold  text-lg "}>{fat ? "✓" : "X"}</span>
         </td>
       </tr>
     ))}
@@ -347,6 +347,7 @@ export default function HairGrowthPage() {
 
       {/* Footer */}
       <footer className="bg-blue-900 text-white px-4 py-6 text-center text-md">
+        <h1 className="text-center text-4xl font-bold mb-4">MODERN HEALTH REPORTING</h1>
         <p>&copy; 2025 MODERN HEALTH REPORTING. All rights reserved.</p>
         <p className="mt-2">
           Disclaimer: This is not medical advice. Speak with a physician before
