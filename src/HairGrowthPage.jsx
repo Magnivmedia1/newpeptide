@@ -348,7 +348,7 @@ export default function HairGrowthPage() {
 
       <div className="flex items-center justify-center text-sm text-yellow-500 font-semibold mb-4">
         <span className="text-sm">⭐⭐⭐⭐⭐</span>
-        <span className="ml-1 text-gray-700">Trusted by 100,000+ Men</span>
+        <span className="ml-1 text-gray-700">Trusted by 1000s</span>
       </div>
 
       <hr className="border-gray-300 mb-4" />
@@ -371,7 +371,7 @@ export default function HairGrowthPage() {
       </div>
 
       <p className="text-[17px] text-gray-700 mb-4">
-        SLU-PP-332 was created to change the game in hair loss treatment.{' '}
+        SLU-PP-332 was designed to optimize your body's fat-burning and energy-production systems {' '}
         <button onClick={handleClick} className="text-red-600 font-semibold underline">
           Claim this special offer today!
         </button>
