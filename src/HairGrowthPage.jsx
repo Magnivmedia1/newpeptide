@@ -72,17 +72,18 @@ export default function HairGrowthPage() {
               <li>Risk-free 12-month growth guarantee</li>
             </ul> */}
             <div className="mt-6">
-              <button
-                onClick={handleClick}
-                className="relative inline-block text-2xl group focus:outline-none"
-              >
-                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
-                  <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
-                  <span className="relative font-bold">Try SLU-PP-332 Now</span>
-                </span>
-                <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
-              </button>
+             <button
+  onClick={handleClick}
+  className="relative inline-block text-2xl group focus:outline-none"
+>
+  <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+    <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-orange-500"></span>
+    <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+    <span className="relative font-bold">Try SLU-PP-332 Now</span>
+  </span>
+  <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
+</button>
+
             </div>
           </section>
 
@@ -112,16 +113,17 @@ export default function HairGrowthPage() {
             </p>
             <div className="mt-6">
                <button
-                onClick={handleClick}
-                className="relative inline-block text-2xl group focus:outline-none"
-              >
-                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
-                  <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
-                  <span className="relative font-bold">Try SLU-PP-332 Now</span>
-                </span>
-                <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
-              </button>
+  onClick={handleClick}
+  className="relative inline-block text-2xl group focus:outline-none"
+>
+  <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+    <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-orange-500"></span>
+    <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+    <span className="relative font-bold">Try SLU-PP-332 Now</span>
+  </span>
+  <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
+</button>
+
             </div>
           </section>
 
@@ -151,17 +153,18 @@ export default function HairGrowthPage() {
               little focus on muscle/mitochondria adaptations.
             </p>
             <div className="mt-6">
-               <button
-                onClick={handleClick}
-                className="relative inline-block text-2xl group focus:outline-none"
-              >
-                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
-                  <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
-                  <span className="relative font-bold">Try SLU-PP-332 Now</span>
-                </span>
-                <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
-              </button>
+              <button
+  onClick={handleClick}
+  className="relative inline-block text-2xl group focus:outline-none"
+>
+  <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+    <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-orange-500"></span>
+    <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+    <span className="relative font-bold">Try SLU-PP-332 Now</span>
+  </span>
+  <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
+</button>
+
             </div>
           </section>
 
@@ -194,16 +197,17 @@ export default function HairGrowthPage() {
             <div className="mt-6">
               
                <button
-                onClick={handleClick}
-                className="relative inline-block text-2xl group focus:outline-none"
-              >
-                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
-                  <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
-                  <span className="relative font-bold">Try SLU-PP-332 Now</span>
-                </span>
-                <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
-              </button>
+  onClick={handleClick}
+  className="relative inline-block text-2xl group focus:outline-none"
+>
+  <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+    <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-orange-500"></span>
+    <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+    <span className="relative font-bold">Try SLU-PP-332 Now</span>
+  </span>
+  <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
+</button>
+
             </div>
           </section>
 
@@ -306,16 +310,17 @@ export default function HairGrowthPage() {
              
             <div className="mt-6">
               <button
-                onClick={handleClick}
-                className="relative inline-block text-2xl group focus:outline-none"
-              >
-                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
-                  <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
-                  <span className="relative font-bold">Try SLU-PP-332 Now</span>
-                </span>
-                <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
-              </button>
+  onClick={handleClick}
+  className="relative inline-block text-2xl group focus:outline-none"
+>
+  <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+    <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-orange-500"></span>
+    <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+    <span className="relative font-bold">Try SLU-PP-332 Now</span>
+  </span>
+  <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
+</button>
+
             </div>
           </section>
         </main>
