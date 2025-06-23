@@ -227,9 +227,9 @@ export default function HairGrowthPage() {
           </section>
 
           {/* Comparison Section */}
-          <section className="bg-gray-100 px-4 py-6 rounded-lg mb-12">
-            <h3 className="text-4xl font-bold mb-2">
-              Side-by-Side Comparison: <br/> <span className="text-2xl">SLU-PP-332 vs. Typical Fat Burner</span>
+          <section className="bg-gray-100 py-6 rounded-lg mb-12">
+            <h3 className="text-4xl font-bold mb-2 text-center">
+              Side-by-Side Comparison <br/> <span className="text-2xl ">SLU-PP-332 vs. Typical Fat Burner</span>
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-1 ">
               <div>
