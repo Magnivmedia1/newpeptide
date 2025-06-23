@@ -24,7 +24,7 @@ export default function HairGrowthPage() {
         <main className="w-full lg:w-3/4 lg:pr-8">
           {/* Hero Section */}
           <section className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-2">
+            <h2 className="text-5xl font-bold mb-2">
               SLU-PP-332 vs. Your Average Fat Burner: A Clear Winner?
             </h2>
             <p className="text-sm text-white font-bold mb-4 text-left bg-gray-400 p-2 w-50 mt-4">
@@ -195,11 +195,11 @@ export default function HairGrowthPage() {
               
                <button
                 onClick={handleClick}
-                className="relative inline-block text-lg group focus:outline-none"
+                className="relative inline-block text-2xl group focus:outline-none"
               >
-                <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                   <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-58 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
                   <span className="relative font-bold">Try SLU-PP-332 Now</span>
                 </span>
                 <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
