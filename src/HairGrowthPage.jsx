@@ -74,11 +74,11 @@ export default function HairGrowthPage() {
             <div className="mt-6">
               <button
                 onClick={handleClick}
-                className="relative inline-block text-lg group focus:outline-none"
+                className="relative inline-block text-2xl group focus:outline-none"
               >
-                <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                   <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-58 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
                   <span className="relative font-bold">Try SLU-PP-332 Now</span>
                 </span>
                 <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
@@ -113,11 +113,11 @@ export default function HairGrowthPage() {
             <div className="mt-6">
                <button
                 onClick={handleClick}
-                className="relative inline-block text-lg group focus:outline-none"
+                className="relative inline-block text-2xl group focus:outline-none"
               >
-                <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                   <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-58 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
                   <span className="relative font-bold">Try SLU-PP-332 Now</span>
                 </span>
                 <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
@@ -153,11 +153,11 @@ export default function HairGrowthPage() {
             <div className="mt-6">
                <button
                 onClick={handleClick}
-                className="relative inline-block text-lg group focus:outline-none"
+                className="relative inline-block text-2xl group focus:outline-none"
               >
-                <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                   <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-58 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
                   <span className="relative font-bold">Try SLU-PP-332 Now</span>
                 </span>
                 <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
@@ -307,11 +307,11 @@ export default function HairGrowthPage() {
             <div className="mt-6">
               <button
                 onClick={handleClick}
-                className="relative inline-block text-lg group focus:outline-none"
+                className="relative inline-block text-2xl group focus:outline-none"
               >
-                <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                <span className="relative z-10 block px-15 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                   <span className="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                  <span className="absolute left-0 w-58 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
+                  <span className="absolute left-0 w-90 h-20 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-red-700 group-hover:-rotate-180 ease"></span>
                   <span className="relative font-bold">Try SLU-PP-332 Now</span>
                 </span>
                 <span className="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-red-900 rounded-lg group-hover:mb-0 group-hover:mr-0"></span>
@@ -322,7 +322,7 @@ export default function HairGrowthPage() {
 
         {/* Sidebar Widget */}
         <aside className="w-full lg:w-1/4 mt-8 lg:mt-0">
-          <div className="sticky top-6 bg-white border border-gray-200 shadow-md p-4 rounded">
+          {/* <div className="sticky top-6 bg-white border border-gray-200 shadow-md p-4 rounded">
             <h4 className="text-lg font-semibold mb-2 text-center">
               Recommended
             </h4>
@@ -341,7 +341,46 @@ export default function HairGrowthPage() {
             className="bg-red-600 hover:bg-red-700 text-white font-bold w-full py-2 rounded">
               Claim Offer Now
             </button>
-          </div>
+          </div> */}
+
+           <div className="sticky top-6 max-w-sm mx-auto rounded-xl border border-gray-300 shadow-md p-6 bg-white text-center font-sans">
+      <h2 className="text-xl font-bold text-gray-800 mb-2">Recommended</h2>
+
+      <div className="flex items-center justify-center text-sm text-yellow-500 font-semibold mb-4">
+        <span className="text-sm">⭐⭐⭐⭐⭐</span>
+        <span className="ml-1 text-gray-700">Trusted by 100,000+ Men</span>
+      </div>
+
+      <hr className="border-gray-300 mb-4" />
+
+      <h3 className="text-lg font-bold text-gray-900 leading-snug mb-4">
+        Try SLU-PP-332<br /> and get 25% off!
+      </h3>
+
+      <div className="relative w-full flex justify-center mb-6">
+        <img 
+          src="/images/slu-pp-332.png" 
+          alt="illumiflow cap"
+          className="w-48 h-auto"
+        />
+        <div className="absolute bottom-0 right-0 p-1 rounded-full bg-white shadow">
+          <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 2a6 6 0 110 12A6 6 0 0110 4zm0 2a1 1 0 100 2 1 1 0 000-2zm1 3H9v4h2V9z" />
+          </svg>
+        </div>
+      </div>
+
+      <p className="text-sm text-gray-700 mb-4">
+        SLU-PP-332 was created to change the game in hair loss treatment.{' '}
+        <button onClick={handleClick} className="text-red-600 font-semibold underline">
+          Claim this special offer today!
+        </button>
+      </p>
+
+      <button onClick={handleClick} className="w-full bg-red-500 hover:bg-red-600 text-lg text-white font-bold py-3 rounded-full shadow-md transition">
+        CLAIM OFFER NOW →
+      </button>
+    </div>
         </aside>
       </div>
 
